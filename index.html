@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Soccer Tables</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:green !important;">
+    <a class="navbar-brand" href="http://connorhp.com/creativeProject2" style="color: white !important">Soccer League Tables</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <button id="button" onclick="preLT()">Premier League (England)</button>
+        <button id="button" onclick="serieALT()">Serie A (Italy)</button>
+        <button id="button" onclick="bunLT()">Bundesliga (Germany)</button>
+        <button id="button" onclick="laLT()">La Liga (Spain)</button>
+        <button id="button" onclick="ligueLT()">Ligue 1 (France)</button>
+      </div>
+    </div>
+  </nav>
+  
+  <h1 id="whichtable">Click on a league to see their table</h1> <br>
+  
+  <div class="container">
+    <div class="row">
+      <div id="firsthalf" class="col">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br>
+      </div>
+      <div id="secondhalf" class="col">
+      </div>
+    </div>
+  </div>
+
+  <p id="break"></p>
+  <footer>
+    <a href="https://github.com/BYUCS260/creativeProject2">GitHub </a>
+    <p>Connor Pearce 2019 All Rights Reserved
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
